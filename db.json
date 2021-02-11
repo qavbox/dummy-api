@@ -1,0 +1,42 @@
+{
+"profiles": [
+    {
+      "id": 1,
+      "name": "qavbox",
+      "experience":9,
+      "tools":["java","selenium","api"]
+      "address":
+      {
+        "streetAddress": "123",
+        "city": "qav box",
+        "state": "TS",
+        "postalCode": "654321"
+      }
+      "phoneNumbers": [
+      { 
+        "type": "home", 
+        "number": "1234567890" 
+      }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "qavalidation",
+      "experience":13,
+      "tools":["java","selenium","api","functional"]
+      "address":
+      {
+        "streetAddress": "456",
+        "city": "qa validation",
+        "state": "OD",
+        "postalCode": "987654"
+      }
+      "phoneNumbers": [
+      { 
+        "type": "mobile", 
+        "number": "7383627627" 
+      }
+      ]
+    }
+  ]
+}
