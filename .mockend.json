@@ -1,13 +1,22 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "id": "int",
+  "name": "string",
+  "experience": "int",
+  "tools": [
+    
+  ],
+  "address": {
+    "streetAddress": "string",
+    "city": "string",
+    "state": "string",
+    "postalCode": "string"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
+  "phoneNumbers": [
+    {
+      "type": "string",
+      "number": "string"
+    }
+  ]
 }
+
+
